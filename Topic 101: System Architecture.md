@@ -16,7 +16,7 @@ Conceptual understanding of sysfs, udev, dbus
 #### The following is a partial list of the used files, terms and utilities:
 
 * /sys/ -- system harware and kernel module without process IDs
-* /proc/ -- files sytem that shows processes, mounts, process IDs, and hardware ids and information tells us about our system
+* /proc/ -- files sytem that shows processes, mounts, process IDs, and hardware ids
      - /proc/interrupts -- interrupts cpu to ask for permission to use system resources
      - /proc/dma -- allows direct access to system resources
 * /dev/ -- lists device items
