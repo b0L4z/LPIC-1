@@ -1,10 +1,10 @@
 # LPIC-1
-Linux+ and LPIC-1: System Administrator
-Topic 101: System Architecture
+## Linux+ and LPIC-1: System Administrator
+### Topic 101: System Architecture
 
-101.1 Determine and configure hardware settings
+#### 101.1 Determine and configure hardware settings
 
-Weight: 2
+##### Weight: 2
 
 Description: Candidates should be able to determine and configure fundamental system hardware.
 
@@ -24,9 +24,9 @@ lspci
 lsusb
  
 
-101.2 Boot the system
+#### 101.2 Boot the system
 
-Weight: 3
+##### Weight: 3
 
 Description: Candidates should be able to guide the system through the booting process.
 
@@ -49,9 +49,9 @@ SysVinit
 systemd
  
 
-101.3 Change runlevels / boot targets and shutdown or reboot system
+#### 101.3 Change runlevels / boot targets and shutdown or reboot system
 
-Weight: 3
+##### Weight: 3
 
 Description: Candidates should be able to manage the SysVinit runlevel or systemd boot target of the system. This objective includes changing to single user mode, shutdown or rebooting the system. Candidates should be able to alert users before switching runlevels / boot targets and properly terminate processes. This objective also includes setting the default SysVinit runlevel or systemd boot target. It also includes awareness of Upstart as an alternative to SysVinit or systemd.
 
