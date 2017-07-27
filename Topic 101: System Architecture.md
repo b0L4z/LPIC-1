@@ -17,6 +17,8 @@ Conceptual understanding of sysfs, udev, dbus
 
 * /sys/
 * /proc/
+     - /proc/interrupts -- interrupts cpu to ask for permission to use system resources
+     - /proc/dma -- allows direct access to system resources
 * /dev/
 * modprobe
 * lsmod
