@@ -15,13 +15,13 @@ Tools and utilities to manipulate USB devices
 Conceptual understanding of sysfs, udev, dbus
 #### The following is a partial list of the used files, terms and utilities:
 
-/sys/
-/proc/
-/dev/
-modprobe
-lsmod
-lspci
-lsusb
+* /sys/
+* /proc/
+* /dev/
+* modprobe
+* lsmod
+* lspci
+* lsusb
  
 
 #### 101.2 Boot the system
@@ -39,14 +39,14 @@ Awareness of Upstart
 Check boot events in the log files
 #### Terms and Utilities:
 
-dmesg
-BIOS
-bootloader
-kernel
-initramfs
-init
-SysVinit
-systemd
+* dmesg
+* BIOS
+* bootloader
+* kernel
+* initramfs
+* init
+* SysVinit
+* systemd
  
 
 #### 101.3 Change runlevels / boot targets and shutdown or reboot system
@@ -64,13 +64,13 @@ Alert users before switching runlevels / boot targets or other major system even
 Properly terminate processes
 #### Terms and Utilities:
 
-/etc/inittab
-shutdown
-init
-/etc/init.d/
-telinit
-systemd
-systemctl
-/etc/systemd/
-/usr/lib/systemd/
-wall
+* /etc/inittab
+* shutdown
+* init
+* /etc/init.d/
+* telinit
+* systemd
+* systemctl
+* /etc/systemd/
+* /usr/lib/systemd/
+* wall
