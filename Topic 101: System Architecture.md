@@ -15,14 +15,15 @@ Tools and utilities to manipulate USB devices
 Conceptual understanding of sysfs, udev, dbus
 #### The following is a partial list of the used files, terms and utilities:
 
-* /sys/
-* /proc/ -- shows processes, mounts, and hardware ids and information tells us about our system
+* /sys/ -- system harware and kernel module without process IDs
+* /proc/ -- files sytem that shows processes, mounts, process IDs, and hardware ids and information tells us about our system
      - /proc/interrupts -- interrupts cpu to ask for permission to use system resources
      - /proc/dma -- allows direct access to system resources
-* /dev/
+* /dev/ -- lists device items
 * modprobe
-* lsmod
+* lsmod -- formats contents of /proc/modules
 * lspci
+* lscpu -- displays cpu information
 * lsusb
  
 
