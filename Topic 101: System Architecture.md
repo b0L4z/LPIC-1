@@ -25,7 +25,7 @@ Conceptual understanding of sysfs, udev, dbus
 * lspci
 * `lscpu` -- displays cpu information
      - `lscpu -a -e=CPU` -- a = all e = extended
-     - 'lscpu -aep' -- p = parse
+     - `lscpu -aep` -- p = parse
 * lsusb
 * 'lsblk' -- lists information about available or specified block devices
  
