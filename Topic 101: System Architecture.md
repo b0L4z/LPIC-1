@@ -1,5 +1,5 @@
 # LPIC-1
-## Linux+ and LPIC-1: System Administrator
+## Linux+ and LPIC-1: System Administrator - Exam 101
 ### Topic 101: System Architecture
 
 #### 101.1 Determine and configure hardware settings
