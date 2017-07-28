@@ -23,6 +23,8 @@ Conceptual understanding of sysfs, udev, dbus
 * modprobe
 * `lsmod` -- nicely formats and lists contents of /proc/modules
 * `lspci` -- lists device ID on PCI
+     - `lspci -v` -- v = verbose
+* `lsscsi` -- lists SCSI drives
 * `lscpu` -- displays cpu information
      - `lscpu -a -e=CPU` -- a = all e = extended
      - `lscpu -aep` -- p = parse
