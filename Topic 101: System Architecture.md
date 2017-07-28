@@ -21,9 +21,10 @@ Conceptual understanding of sysfs, udev, dbus
      - /proc/dma -- allows direct access to system resources
 * /dev/ -- lists device items
 * modprobe
-* lsmod -- formats contents of /proc/modules
+* `lsmod` -- nicely formats and lists contents of /proc/modules
 * lspci
-* lscpu -- displays cpu information
+* `lscpu` -- displays cpu information
+     - `lscpu -a` --
 * lsusb
  
 
