@@ -22,12 +22,12 @@ Conceptual understanding of sysfs, udev, dbus
 * /dev/ -- lists device items
 * modprobe
 * `lsmod` -- nicely formats and lists contents of /proc/modules
-* lspci
+* `lspci` -- lists device ID on PCI
 * `lscpu` -- displays cpu information
      - `lscpu -a -e=CPU` -- a = all e = extended
      - `lscpu -aep` -- p = parse
 * lsusb
-* 'lsblk' -- lists information about available or specified block devices
+* `lsblk` -- lists information about available or specified block devices
  
 
 #### 101.2 Boot the system
