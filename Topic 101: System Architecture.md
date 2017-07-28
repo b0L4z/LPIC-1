@@ -24,8 +24,10 @@ Conceptual understanding of sysfs, udev, dbus
 * `lsmod` -- nicely formats and lists contents of /proc/modules
 * lspci
 * `lscpu` -- displays cpu information
-     - `lscpu -a` --
+     - `lscpu -a -e=CPU` -- a = all e = extended
+     - 'lscpu -aep' -- p = parse
 * lsusb
+* 'lsblk' -- lists information about available or specified block devices
  
 
 #### 101.2 Boot the system
