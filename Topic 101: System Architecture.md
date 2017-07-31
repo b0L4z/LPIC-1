@@ -31,6 +31,7 @@ Conceptual understanding of sysfs, udev, dbus
      - `lscpu -aep` -- p = parse
 * `lsusb` -- shows list of devices on USB buses
 * `lsblk` -- lists information about available or specified block devices
+* `lsraid` -- displays any RAID disks
  
 
 #### 101.2 Boot the system
