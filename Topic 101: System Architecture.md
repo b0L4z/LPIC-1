@@ -21,17 +21,17 @@ Conceptual understanding of sysfs, udev, dbus
      - /proc/dma -- allows direct access to system resources
 * /dev/ -- lists device items
 * modprobe
-* `lsmod` -- nicely formats and lists contents of /proc/modules
-* `lspci` -- lists device ID on PCI
-     - `lspci -v` -- v = verbose
-* `lsscsi` -- lists SCSI drives
-     - `lsscsi -s` -- s = size
-* `lscpu` -- displays cpu information
-     - `lscpu -a -e=CPU` -- a = all e = extended
-     - `lscpu -aep` -- p = parse
-* `lsusb` -- shows list of devices on USB buses
-* `lsblk` -- lists information about available or specified block devices
-* `lsraid` -- displays any RAID disks
+* `lsmod` nicely formats and lists contents of /proc/modules
+* `lspci` lists device ID on PCI
+     - `lspci -v` v = verbose
+* `lsscsi` lists SCSI drives
+     - `lsscsi -s` s = size
+* `lscpu` displays cpu information
+     - `lscpu -a -e=CPU` a = all e = extended
+     - `lscpu -aep` p = parse
+* `lsusb` shows list of devices on USB buses
+* `lsblk` lists information about available or specified block devices
+* `lsraid` displays any RAID disks
  
 
 #### 101.2 Boot the system
