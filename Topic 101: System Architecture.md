@@ -50,13 +50,21 @@ Awareness of Upstart
 Check boot events in the log files
 #### Terms and Utilities:
 
+* Boot Process - BIOS (Basic Input/Output System executes MBR) > MBR (Master Boot Record executes GRUB) > GRUB (Grand Unified Bootloader executes Kernel) > Kernel (Kernel /sbin/init) > Init (Init executes runlevel programs) > Runlevel (Runlevelprograms are executed from /etc/rc.d/rc*.d/
 * dmesg
-* BIOS
-* bootloader
-* kernel
+* BIOS -- 1st thing to load when powering on a machine. This then hands off to the bootsector. Boot sector provides MBR.
+* bootloader -- LILO/GRUB/GRUB2 decides what you can boot. May be able to use user input to select an OS.
+* kernel -- after bootloader the kernel is read and executed. Device initialization, module loading, and initial RAM (initrd) is loaded
 * initramfs
-* init
-* SysVinit
+* init -- program loads after kernel and becomes the first process ID.
+* SysVinit -- package conatining a group of processes that control basic functions of system and runlevels seen below
+     - 0 - HALT (shutdown)
+     - 1 - Single User
+     - 2 - Multi-User (No Network or Remote Filesystems)
+     - 3 - Full Multi-User (Including Networking and Remote Filesystems)
+     - 4 - Unused
+     - 5 - X11 (Full Multi-User with Graphical Desktop Environment)
+     - 6 - Reboot
 * systemd
  
 
@@ -75,7 +83,7 @@ Alert users before switching runlevels / boot targets or other major system even
 Properly terminate processes
 #### Terms and Utilities:
 
-* /etc/inittab
+* /etc/inittab -- after init program loads inittab is read and appropriate runlevel scripts are run
 * shutdown
 * init
 * /etc/init.d/
