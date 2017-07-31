@@ -25,10 +25,11 @@ Conceptual understanding of sysfs, udev, dbus
 * `lspci` -- lists device ID on PCI
      - `lspci -v` -- v = verbose
 * `lsscsi` -- lists SCSI drives
+     - `lsscsi -s` -- s = size
 * `lscpu` -- displays cpu information
      - `lscpu -a -e=CPU` -- a = all e = extended
      - `lscpu -aep` -- p = parse
-* lsusb
+* `lsusb` -- shows list of devices on USB buses
 * `lsblk` -- lists information about available or specified block devices
  
 
