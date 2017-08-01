@@ -65,7 +65,7 @@ Check boot events in the log files
      - 4 - Unused
      - 5 - X11 (Full Multi-User with Graphical Desktop Environment)
      - 6 - Reboot
-* systemd
+* systemd -- initialization system for bootstrapping the user space and managing all processes subsequent to system start. It was developed to replace sysvinit. Has fewer dependencies, allows for prioritization and precedence, and reduces start up time.
  
 
 #### 101.3 Change runlevels / boot targets and shutdown or reboot system
