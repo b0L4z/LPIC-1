@@ -66,7 +66,13 @@ Check boot events in the log files
      - 5 - X11 (Full Multi-User with Graphical Desktop Environment)
      - 6 - Reboot
 * systemd -- initialization system for bootstrapping the user space and managing all processes subsequent to system start. It was developed to replace sysvinit. Has fewer dependencies, allows for prioritization and precedence, and reduces start up time.
- 
+     - 0 - poweroff.target (shutdown)
+     - 1 - rescue.target (Single User/Rescue Shell)
+     - 2 - multi-user.target (Non-Graphical, Full Network, Multi-User)
+     - 3 - multi-user.target (Non-Graphical, Full Network, Multi-User)
+     - 4 - multi-user.target (Non-Graphical, Full Network, Multi-User)
+     - 5 - graphical.target (Full Multi-User with Graphical Desktop Environment)
+     - 6 - reboot.target (Reboot)
 
 #### 101.3 Change runlevels / boot targets and shutdown or reboot system
 
@@ -83,7 +89,7 @@ Alert users before switching runlevels / boot targets or other major system even
 Properly terminate processes
 #### Terms and Utilities:
 
-* /etc/inittab -- after init program loads inittab is read and appropriate runlevel scripts are run. Used in Sysvinit
+* /etc/inittab -- after init program loads inittab is read and appropriate runlevel scripts are run. Used in Sysvinit not systemd.
 * shutdown
 * init
 * /etc/init.d/
