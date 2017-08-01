@@ -57,7 +57,7 @@ Check boot events in the log files
 * kernel -- after bootloader the kernel is read and executed. Device initialization, module loading, and initial RAM (initrd) is loaded
 * initramfs
 * init -- program loads after kernel and becomes the first process ID.
-* SysVinit -- package conatining a group of processes that control basic functions of system and runlevels seen below
+* SysVinit -- package conatining a group of processes that control basic functions of system and runlevels seen below. Scripts are located in /etc/rc.d/
      - 0 - HALT (shutdown)
      - 1 - Single User
      - 2 - Multi-User (No Network or Remote Filesystems)
@@ -65,7 +65,7 @@ Check boot events in the log files
      - 4 - Unused
      - 5 - X11 (Full Multi-User with Graphical Desktop Environment)
      - 6 - Reboot
-* systemd -- initialization system for bootstrapping the user space and managing all processes subsequent to system start. It was developed to replace sysvinit. Has fewer dependencies, allows for prioritization and precedence, and reduces start up time.
+* systemd -- initialization system for bootstrapping the user space and managing all processes subsequent to system start. It was developed to replace sysvinit. Has fewer dependencies, allows for prioritization and precedence, and reduces start up time. Scripts for targets are located /usr/lib/systemd/system
      - 0 - poweroff.target (shutdown)
      - 1 - rescue.target (Single User/Rescue Shell)
      - 2 - multi-user.target (Non-Graphical, Full Network, Multi-User)
