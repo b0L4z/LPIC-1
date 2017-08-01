@@ -83,7 +83,7 @@ Alert users before switching runlevels / boot targets or other major system even
 Properly terminate processes
 #### Terms and Utilities:
 
-* /etc/inittab -- after init program loads inittab is read and appropriate runlevel scripts are run
+* /etc/inittab -- after init program loads inittab is read and appropriate runlevel scripts are run. Used in Sysvinit
 * shutdown
 * init
 * /etc/init.d/
