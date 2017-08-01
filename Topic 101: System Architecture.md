@@ -96,6 +96,8 @@ Properly terminate processes
      - `shutdown -r 30` r 30 = reboot 30 mins
      - `shutdown -h` h = halt it stops machine and advises to shutdown 
      - `shutdown -p` p=power down it turns off machine
+     - `shutdown -k` k = broadcast a message similar to `wall`
+     - `shutdown -c` c = cancel
 * init
 * /etc/init.d/
 * `telinit` changes runlevel to specified
@@ -103,4 +105,4 @@ Properly terminate processes
 * systemctl
 * /etc/systemd/
 * /usr/lib/systemd/
-* wall
+* `wall` broadcasts messages to anyone on the terminal
