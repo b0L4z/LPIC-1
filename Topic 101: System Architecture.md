@@ -91,7 +91,7 @@ Alert users before switching runlevels / boot targets or other major system even
 Properly terminate processes
 #### Terms and Utilities:
 
-* /etc/inittab -- after init program loads inittab is read and appropriate runlevel scripts are run. Used in Sysvinit not systemd.
+* /etc/inittab -- after init program loads inittab is read and appropriate runlevel scripts are run. Used in Sysvinit not systemd. In order to change the default runlevel for Sysvinit you must change the default runlevel by changing the number here: "id:3:initdefault"
 * `shutdown` comannd to run different shutdown commands
      - `shutdown -r 30` r 30 = reboot 30 mins
      - `shutdown -h` h = halt it stops machine and advises to shutdown 
