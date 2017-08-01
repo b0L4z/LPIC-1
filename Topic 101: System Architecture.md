@@ -92,7 +92,10 @@ Properly terminate processes
 #### Terms and Utilities:
 
 * /etc/inittab -- after init program loads inittab is read and appropriate runlevel scripts are run. Used in Sysvinit not systemd.
-* shutdown
+* `shutdown` comannd to run different shutdown commands
+     - `shutdown -r 30` r 30 = reboot 30 mins
+     - `shutdown -h` h = halt it stops machine and advises to shutdown 
+     - `shutdown -p` p=power down it turns off machine
 * init
 * /etc/init.d/
 * `telinit` changes runlevel to specified
