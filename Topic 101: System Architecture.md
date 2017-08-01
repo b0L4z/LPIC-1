@@ -98,11 +98,14 @@ Properly terminate processes
      - `shutdown -p` p=power down it turns off machine
      - `shutdown -k` k = broadcast a message similar to `wall`
      - `shutdown -c` c = cancel
-* init
+* `init`similar to `telinit`
 * /etc/init.d/
 * `telinit` changes runlevel to specified
-* systemd
-* systemctl
+* systemd - a type of system with targets instead of rc.d
+* `systemctl`
+     - `systemctl get-default` shows default target for a systemd machine
+     - `systemctl set-default graphical.target` sets default target for a systemd machine
+     - `systemctl list-units --type=target` lists all targets available on system
 * /etc/systemd/
-* /usr/lib/systemd/
+* /usr/lib/systemd/ - location of systemd target in /system/
 * `wall` broadcasts messages to anyone on the terminal
