@@ -50,7 +50,8 @@ Awareness of Upstart
 Check boot events in the log files
 #### Terms and Utilities:
 
-* Boot Process - **BIOS** (Basic Input/Output System executes MBR) > **MBR** (Master Boot Record executes GRUB) > **GRUB** (Grand Unified Bootloader executes Kernel) > **Kernel** (Kernel /sbin/init) > **Init** (Init executes runlevel programs) > **Runlevel** (Runlevelprograms are executed from /etc/rc.d/rc*.d/)
+* Sysvinit Boot Process - **BIOS** (Basic Input/Output System executes MBR) > **MBR** (Master Boot Record executes GRUB) > **GRUB** (Grand Unified Bootloader executes Kernel) > **Kernel** (Kernel /sbin/init) > **Init** (Init executes runlevel programs) > **Runlevel** (Runlevelprograms are executed from /etc/rc.d/rc*.d/)
+* Systemd Boot Process -
 * dmesg
 * BIOS -- 1st thing to load when powering on a machine. This then hands off to the bootsector. Boot sector provides MBR.
 * bootloader -- LILO/GRUB/GRUB2 decides what you can boot. May be able to use user input to select an OS.
