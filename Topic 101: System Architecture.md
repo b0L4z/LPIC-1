@@ -73,6 +73,7 @@ Check boot events in the log files
      - 4 - multi-user.target (Non-Graphical, Full Network, Multi-User)
      - 5 - graphical.target (Full Multi-User with Graphical Desktop Environment)
      - 6 - reboot.target (Reboot)
+* `runlevel` shows current run level
 
 #### 101.3 Change runlevels / boot targets and shutdown or reboot system
 
