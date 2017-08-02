@@ -52,7 +52,7 @@ Check boot events in the log files
 
 * Sysvinit Boot Process - **BIOS** (Basic Input/Output System executes MBR) > **MBR** (Master Boot Record executes GRUB) > **GRUB** (Grand Unified Bootloader executes Kernel) > **Kernel** (Kernel /sbin/init) > **Init** (Init executes runlevel programs) > **Runlevel** (Runlevelprograms are executed from /etc/rc.d/rc*.d/)
 * Systemd Boot Process - **BIOS** (Basic Input/Output System executes MBR/GPT includes EFI) > **MBR** (Master Boot Record executes LILO/GRUB/GRUB2) > **GRUB** (Grand Unified Bootloader executes Kernel) > **Kernel** (Kernel ) > **Init** (Init executes runlevel programs) > **Runlevel** (Runlevelprograms are executed from /usr/lib/systemd/system)
-* dmesg
+* `dmesg` is used to write the kernel messages in Linux. Output location is /var/log/dmesg or /var/log/syslog
 * BIOS -- 1st thing to load when powering on a machine. This then hands off to the bootsector. Boot sector provides MBR.
 * bootloader -- LILO/GRUB/GRUB2 decides what you can boot. May be able to use user input to select an OS.
 * kernel -- after bootloader the kernel is read and executed. Device initialization, module loading, and initial RAM (initrd) is loaded
