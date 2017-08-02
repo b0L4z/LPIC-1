@@ -23,6 +23,7 @@ Conceptual understanding of sysfs, udev, dbus
 * /dev/ - lists device items
 * `modprobe` add or remove modules from the Linux Kernel dpeending on the switch
      - `modprobe -r` removes a module
+     - ``sudo insmod /usr/lib/modules/`uname -r`/kernel/fs/isofs/isofs.ko`` insert a module without modprobe
 * `lsmod` nicely formats and lists contents of /proc/modules
 * `lspci` lists device ID on PCI
      - `lspci -v` v = verbose
