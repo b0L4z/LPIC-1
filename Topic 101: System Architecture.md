@@ -21,7 +21,8 @@ Conceptual understanding of sysfs, udev, dbus
      - /proc/dma - allows direct access to system resources
      - /proc/PID/environ - displays environment variables for specified PID number.
 * /dev/ - lists device items
-* modprobe
+* `modprobe` add or remove modules from the Linux Kernel dpeending on the switch
+     - `modprobe -r` removes a module
 * `lsmod` nicely formats and lists contents of /proc/modules
 * `lspci` lists device ID on PCI
      - `lspci -v` v = verbose
