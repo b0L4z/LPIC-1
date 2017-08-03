@@ -17,9 +17,10 @@ Knowledge of basic features of LVM
 #### Terms and Utilities:
 
 * / (root) filesystem - the root of where everything is installed. not good to have near full disk space used.
-* /var filesystem
+* /var filesystem - a standard subdirectory of the root directory in Linux and other Unix-like operating systems that contains files to which the system writes data during the course of its operation.
 * /home filesystem - a user's home directory
-* /boot filesystem
+* /boot filesystem - stores files necessary to boot the system.
+* /opt filesystem - third party utilities
 * swap space - should be at least 10% larger than the memory
 * mount points - the location where you will install different file systems. The /etc folder needs to be mounted in root.
 * partitions
