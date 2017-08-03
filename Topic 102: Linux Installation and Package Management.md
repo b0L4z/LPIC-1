@@ -23,7 +23,7 @@ Knowledge of basic features of LVM
 * /opt filesystem - third party utilities
 * swap space - should be at least 10% larger than the memory
 * mount points - the location where you will install different file systems. The /etc folder needs to be mounted in root.
-* partitions
+* partitions - a seperation in a disk or set of disks to reserve space for a mount point.
  
 
 #### 102.2 Install a boot manager
