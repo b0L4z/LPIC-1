@@ -16,12 +16,12 @@ Ensure the /boot partition conforms to the hardware architecture requirements fo
 Knowledge of basic features of LVM
 #### Terms and Utilities:
 
-* / (root) filesystem
+* / (root) filesystem - the root of where everything is installed. not good to have near full disk space used.
 * /var filesystem
-* /home filesystem
+* /home filesystem - a user's home directory
 * /boot filesystem
-* swap space
-* mount points
+* swap space - should be at least 10% larger than the memory
+* mount points - the location where you will install different file systems. The /etc folder needs to be mounted in root.
 * partitions
  
 
