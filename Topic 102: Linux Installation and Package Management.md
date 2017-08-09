@@ -21,7 +21,7 @@ Knowledge of basic features of LVM
 * /home filesystem - a user's home directory
 * /boot filesystem - stores files necessary to boot the system.
 * /opt filesystem - third party utilities
-* swap space - should be at least 10% larger than the memory
+* swap space - dedicated partition for memory swap. should be at least 10% larger than the memory.
 * mount points - the location where you will install different file systems. The /etc folder needs to be mounted in root.
 * partitions - a seperation in a disk or set of disks to reserve space for a mount point.
  
