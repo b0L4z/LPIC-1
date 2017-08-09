@@ -43,7 +43,7 @@ Interact with the boot loader
 #### The following is a partial list of the used files, terms and utilities:
 
 * GRUB (legacy) - CentOS 5 and older
-     
+     - /boot - GRUB boot volume
 * GRUB2 - 
 * menu.lst, grub.cfg and grub.conf
 * grub-install
