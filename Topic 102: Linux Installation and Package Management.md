@@ -24,6 +24,8 @@ Knowledge of basic features of LVM
 * swap space - dedicated partition for memory swap. should be at least 10% larger than the memory.
 * mount points - the location where you will install different file systems. The /etc folder needs to be mounted in root.
 * partitions - a seperation in a disk or set of disks to reserve space for a mount point.
+* LVM (Logical Volume Manager) - Allows the creation of 'groups' of disks or partitions that can be assembled into a single (or
+multiple) filesystems.
  
 
 #### 102.2 Install a boot manager
@@ -40,6 +42,9 @@ Perform basic configuration changes for GRUB 2
 Interact with the boot loader
 #### The following is a partial list of the used files, terms and utilities:
 
+* GRUB (legacy) - CentOS 5 and older
+     
+* GRUB2 - 
 * menu.lst, grub.cfg and grub.conf
 * grub-install
 * grub-mkconfig
