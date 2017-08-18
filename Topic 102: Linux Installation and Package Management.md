@@ -46,7 +46,7 @@ Interact with the boot loader
      - /boot - GRUB boot volume
 * GRUB2 - 
 * menu.lst, grub.cfg and grub.conf - GRUB configuration file.
-* grub-install
+* grub-install - re-install GRUB into a device
 * grub-mkconfig
 * MBR
  
