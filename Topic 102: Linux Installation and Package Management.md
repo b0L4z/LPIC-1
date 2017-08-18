@@ -45,7 +45,7 @@ Interact with the boot loader
 * GRUB (legacy) - CentOS 5 and older
      - /boot - GRUB boot volume
 * GRUB2 - 
-* menu.lst, grub.cfg and grub.conf
+* menu.lst, grub.cfg and grub.conf - GRUB configuration file.
 * grub-install
 * grub-mkconfig
 * MBR
