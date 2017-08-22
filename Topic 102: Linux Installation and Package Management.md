@@ -44,7 +44,8 @@ Interact with the boot loader
 
 * GRUB (legacy) - CentOS 5 and older
      - /boot - GRUB boot volume
-* GRUB2 - 
+* GRUB2 - CentOS 6 and newer
+     - /etc/grub.d or /etc/default/grub - where to edit GRUB2
 * menu.lst, grub.cfg and grub.conf - GRUB configuration file.
 * grub-install - re-install GRUB into a device
 * grub-mkconfig
