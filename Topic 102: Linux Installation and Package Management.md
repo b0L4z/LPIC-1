@@ -48,7 +48,7 @@ Interact with the boot loader
      - /etc/grub.d or /etc/default/grub - where to edit GRUB2
 * menu.lst, grub.cfg and grub.conf - GRUB configuration file.
 * grub-install - re-install GRUB into a device
-* grub(2)-mkconfig - rebuild GRUB boot menu 
+* grub2-mkconfig - rebuild GRUB boot menu 
 * MBR - Master Boot Record
  
 
