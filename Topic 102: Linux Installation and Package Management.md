@@ -65,10 +65,10 @@ Identify the typical locations of system libraries
 Load shared libraries
 #### Terms and Utilities:
 
-* ldd
-* ldconfig
-* /etc/ld.so.conf
-* LD_LIBRARY_PATH
+* ldd - shows list of all libraries that the indiciated application requires
+* ldconfig - configure dynamic linking runtime bindings
+* /etc/ld.so.conf - provides directories to scan for *.so
+* LD_LIBRARY_PATH - long list of library paths that can be used for links to finding shared objects
  
 
 #### 102.4 Use Debian package management
