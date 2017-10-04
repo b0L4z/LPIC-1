@@ -84,14 +84,14 @@ Find packages containing specific files or libraries which may or may not be ins
 Obtain package information like version, content, dependencies, package integrity and installation status (whether or not the package is installed)
 #### Terms and Utilities:
 
-* /etc/apt/sources.list
+* /etc/apt/sources.list - repositories for apt
 * dpkg
 * dpkg-reconfigure
-* apt-get
+* apt-get - advanced package tool get packages
 
-* apt-cache
-
-* aptitude
+* apt-cache - searches known packages that match text
+* /etc/apt/sources.list.d - location to install third party packages
+* aptitude - GUI manager for apt
 
  
 
